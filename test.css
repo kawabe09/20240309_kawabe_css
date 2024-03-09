@@ -1,0 +1,40 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.header__right{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px 10px 0px auto;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+}
+.main{
+    position: relative;
+}
+img{
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    padding-top: 10%;
+    right: 0px;
+    z-index: 10;
+}
+.main__left{
+    position: absolute;
+    top: 300px;
+}
+.main__left-til{
+    font-weight: 300;
+}
+.main__left-blue{
+    width: 70vw;
+    height: 25vh;
+    z-index: 0;
+    background-color: blue;
+}

@@ -2,6 +2,10 @@ nav{
     display: flex;
     flex-direction: row;
     margin: 10px;
+    font-weight: 800;
+}
+.header__home{
+    color: indigo;
 }
 .header__right{
     display: flex;
@@ -20,21 +24,20 @@ a{
 img{
     position: absolute;
     width: 50vw;
-    height: 50vh;
-    padding-top: 10%;
+    padding-top: 5%;
     right: 0px;
     z-index: 10;
 }
 .main__left{
     position: absolute;
-    top: 300px;
+    top: 250px;
 }
 .main__left-til{
-    font-weight: 300;
+    font-weight: 400;
 }
 .main__left-blue{
     width: 70vw;
-    height: 25vh;
+    height: 20vh;
     z-index: 0;
     background-color: blue;
 }
